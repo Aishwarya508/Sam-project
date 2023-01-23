@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightblue;
+}
+
+.mobile-container {
+  max-width: 780px;
+  margin: auto;
+  background-color: #555;
+  height: 700px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.icon {
+  float: right;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+  position: sticky;
+}
+
+.img a
+{
+  align-items: center;
+  float: center;
+  border-radius: 5px;
+  text-align: center;
+
+}
+</style>
+</head>
+<body>
+
+<!-- Simulate a smartphone / tablet look -->
+<div class="mobile-container">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="home.html" class="active"> Go to Dashboard</a>
+  <div id="myLinks">
+    <a href="#news">Profile</a>
+    <a href="#contact">Education</a>
+    <a href="#about">Skills</a>
+     <a class="img" href="#">
+      <img src="https://t3.ftcdn.net/jpg/02/34/34/88/360_F_234348839_kInlhJsXZezKyTbXHde6693vS9Aby4eZ.jpg" alt="...">
+    </a>
+  </div>
+
+ 
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+  <h3> Name : Shubham Laxman Gaware</h3>
+  <p> Description:  To work in a competitive environment that effectively utilizes my analytical, interpersonal, leadership and organizational skills to conceive and achieve solutions. The solutions which help the organization in not only meeting its targets, but also allowing it to grow, thereby, enhancing my own skills as an individual and as a key player in the organization's development.</p>
+
+  <p>
+    <strong>
+        <ul>
+          
+        <li> User id: 1  </li>
+        <li> Name : Shubham Laxman Gaware </li>
+        <li> Location : Pune </li>
+        <li> YOP : 2024 </li>
+        <li> Marks : 88.08% </li>
+        <li> Stream : Computer Application  </li>
+        <li> Gender : Male </li> 
+
+        </ul>  
+    </strong> 
+  </p>
+
+</div>
+
+<!-- End smartphone / tablet look -->
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>
